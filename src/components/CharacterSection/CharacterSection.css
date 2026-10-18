@@ -1,0 +1,6 @@
+.chars h2{font-size:clamp(2rem,5vw,3.2rem);margin-bottom:2rem}
+.chars__grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:1.5rem}
+.modal{position:fixed;inset:0;z-index:100;background:rgba(15,23,48,.75);display:grid;place-items:center;padding:1rem}
+.modal__box{background:var(--ivory);border-radius:var(--radius);padding:2rem;max-width:480px;max-height:90vh;overflow:auto;display:flex;flex-direction:column;gap:.8rem}
+.modal__box h3{font-size:2.2rem}.modal__role{color:#6b5f94;font-weight:600}
+.modal__box .btn{align-self:flex-start}

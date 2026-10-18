@@ -1,0 +1,3 @@
+.particles{position:absolute;inset:0;pointer-events:none;overflow:hidden}
+.particles span{position:absolute;border-radius:50%;background:var(--pale-blue);box-shadow:0 0 8px var(--pale-blue);animation:twinkle 5s infinite,drift 9s ease-in-out infinite alternate}
+@media (max-width:600px){.particles span:nth-child(odd){display:none}}

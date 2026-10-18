@@ -1,0 +1,11 @@
+*{box-sizing:border-box;margin:0}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);background:var(--ivory);color:var(--forest);line-height:1.6;overflow-x:hidden}
+h1,h2,h3{font-family:var(--serif);font-weight:600;line-height:1.1}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--gold);outline-offset:3px}
+.container{width:min(1100px,92%);margin:0 auto}
+.section{padding:clamp(64px,10vw,120px) 0}
+.btn{display:inline-block;padding:.85rem 1.6rem;border-radius:999px;border:1px solid var(--gold);background:var(--gold);color:var(--midnight);font:600 1rem var(--sans);cursor:pointer;text-decoration:none;min-height:44px;transition:transform var(--ease)}
+.btn:hover{transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:inherit}

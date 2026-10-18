@@ -1,0 +1,4 @@
+@keyframes twinkle{0%,100%{opacity:.2}50%{opacity:.9}}
+@keyframes drift{from{transform:translateY(0)}to{transform:translateY(-40px)}}
+@keyframes spin{to{transform:rotate(360deg)}}
+@media (prefers-reduced-motion:reduce){*,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
